@@ -38,13 +38,13 @@ export const Main = () => {
         <article className='logo-container'>
           <Link to='/'>
             <h1 className='Main-title'>
-              <FormattedMessage id='common.tommi' />
+              <FormattedMessage id='common.monika' />
             </h1>
             <h2 className='Main-and'>
               <span> &amp; </span>
             </h2>
             <h1 className='Main-title'>
-              <FormattedMessage id='common.monika' />
+              <FormattedMessage id='common.tommi' />
             </h1>
           </Link>
         </article>
