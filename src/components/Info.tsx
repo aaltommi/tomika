@@ -1,10 +1,7 @@
 import { FormattedMessage } from 'react-intl';
 import './Info.scss';
 import kauppa from '../img/kauppa.jpg';
-import livonsaariCaravan from '../img/livonsaariCaravan.jpg';
 import kastiel from '../img/kastiel.jpg';
-import vanhaSalakuljettaja from '../img/vanhaSalakuljettaja.jpg';
-import vaihela from '../img/vaihela.jpg';
 
 export const Info = () => {
   return (
