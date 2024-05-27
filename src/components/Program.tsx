@@ -5,9 +5,9 @@ export const Program = () => {
   return (
     <section className='Program'>
       <h1>
-        <FormattedMessage id='main.program' />
+        <FormattedMessage id='main.program.beingUpdated' />
       </h1>
-      <h2>12:00</h2>
+      {/* <h2>12:00</h2>
       <p>
         <FormattedMessage id='main.program.consecration' />
       </p>
@@ -22,7 +22,7 @@ export const Program = () => {
       <h2>21:00</h2>
       <p>
         <FormattedMessage id='main.program.consert' />
-      </p>
+      </p> */}
     </section>
   );
 };

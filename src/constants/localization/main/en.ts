@@ -15,6 +15,9 @@ export const main: Record<string, string> = {
     "main.info.location": "Location",
     "main.info.location.desc": "Wedding is located in Naantali on Livonsaari.\nVelkuantie 987, 21180 Livonsaari",
 
+    "main.info.arriving": "Arriving",
+    "main.info.arriving.desc": "asdasd",
+
     "main.info.dresscode": "Dress code",
     "main.info.dresscode.desc": "Countryside wedding with archipelago twist",
 
@@ -24,8 +27,8 @@ export const main: Record<string, string> = {
 
     "main.info.accomodation": "Accomodation",
 
-    "main.info.vanhaSalakuljettaja": "Old Smuggler",
-    "main.info.vanhaSalakuljettaja.desc": "Old Smugglerr offers cabin to rent approximately 7km from the wedding place.",
+    "main.info.accommondationZilina": "Zilina",
+    "main.info.accommondationZilina.desc": "We recommend to book accommondation in Zilina",
 
     "main.info.vaihela": "Saaristo Hotelli Vaihela",
     "main.info.vaihela.desc": "On excellent location. Expensive but idyllic. Behind two ferries that goes during day time every half hour, during the night you need to order it by phone.",

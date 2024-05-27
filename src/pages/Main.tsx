@@ -38,13 +38,13 @@ export const Main = () => {
         <article className='logo-container'>
           <Link to='/'>
             <h1 className='Main-title'>
-              <FormattedMessage id='common.lintu' />
+              <FormattedMessage id='common.tommi' />
             </h1>
             <h2 className='Main-and'>
               <span> &amp; </span>
             </h2>
             <h1 className='Main-title'>
-              <FormattedMessage id='common.maslo' />
+              <FormattedMessage id='common.monika' />
             </h1>
           </Link>
         </article>
@@ -65,8 +65,7 @@ export const Main = () => {
           </article>
         ) : (
           <article className='Landing-container'>
-            <img src='landing.jpg' className='Landing-picture' alt='Landing' />
-            <i>Straník, Žilina, Slovakia</i>
+            <img src='tomika.jpg' className='Landing-picture' alt='Landing' />
             <DateAndPlace size='large' />
           </article>
         )}

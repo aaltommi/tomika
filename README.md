@@ -66,4 +66,10 @@ now npm start works
 created firebase project https://console.firebase.google.com/project/tomika-f62a1/overview
 
 
+## Setting up the github action
+
+install firebase cli `npm install -g firebase-tools`
+
+firebase login
+
 

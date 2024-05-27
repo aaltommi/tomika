@@ -29,7 +29,7 @@ export default function App() {
           <Route path='/:page' exact component={Main} />
           <Route path='/registration/:id' component={Registration} />
         </Switch>
-        <Credits />
+        {/* <Credits /> */}
       </Router>
     </IntlProvider>
   );

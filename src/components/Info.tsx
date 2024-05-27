@@ -2,7 +2,7 @@ import { FormattedMessage } from 'react-intl';
 import './Info.scss';
 import kauppa from '../img/kauppa.jpg';
 import livonsaariCaravan from '../img/livonsaariCaravan.jpg';
-import seurantalo from '../img/seurantalo.jpg';
+import kastiel from '../img/kastiel.jpg';
 import vanhaSalakuljettaja from '../img/vanhaSalakuljettaja.jpg';
 import vaihela from '../img/vaihela.jpg';
 
@@ -20,8 +20,14 @@ export const Info = () => {
           <FormattedMessage id='main.info.location.desc' />
         </p>
         <div className='Info-imageContainer'>
-          <img src={seurantalo} alt='seurantalo' />
+          <img src={kastiel} alt='Kastiel Krasnany' />
         </div>
+        <h2 id='arriving'>
+          <FormattedMessage id='main.info.arriving' />
+        </h2>
+        <p>
+          <FormattedMessage id='main.info.arriving.desc' />
+        </p>
         <h2 id='dresscode'>
           <FormattedMessage id='main.info.dresscode' />
         </h2>
@@ -40,38 +46,11 @@ export const Info = () => {
         <h2 id='accomodation'>
           <FormattedMessage id='main.info.accomodation' />
         </h2>
-        <a href='https://oldsmuggler.fi/palvelut/mokit/'>
           <h3>
-            <FormattedMessage id='main.info.vanhaSalakuljettaja' />
+            <FormattedMessage id='main.info.accommondationZilina' />
           </h3>
-          <div className='Info-imageContainer'>
-            <img src={vanhaSalakuljettaja} alt='vanhaSalakuljettaja' />
-          </div>
-        </a>
         <p>
-          <FormattedMessage id='main.info.vanhaSalakuljettaja.desc' />
-        </p>
-        <a href='https://vaihela.fi/'>
-          <h3>
-            <FormattedMessage id='main.info.vaihela' />
-          </h3>
-          <div className='Info-imageContainer'>
-            <img src={vaihela} alt='vaihela' />
-          </div>
-        </a>
-        <p>
-          <FormattedMessage id='main.info.vaihela.desc' />
-        </p>
-        <a href='https://www.livonsaarencaravan.fi/mokit'>
-          <h3>
-            <FormattedMessage id='main.info.livonsaariCaravan' />
-          </h3>
-          <div className='Info-imageContainer'>
-            <img src={livonsaariCaravan} alt='livonsaariCaravan' />
-          </div>
-        </a>
-        <p>
-          <FormattedMessage id='main.info.livonsaariCaravan.desc' />
+          <FormattedMessage id='main.info.accommondationZilina.desc' />
         </p>
         <h2 id='services'>
           <FormattedMessage id='main.info.services' />
