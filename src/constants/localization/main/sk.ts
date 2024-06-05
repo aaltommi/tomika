@@ -1,9 +1,10 @@
 export const main: Record<string, string> = {
     "main.program": "Program",
-    "main.program.consecration": "Sobáš",
+    "main.program.consecration": "Obrad",
+    "main.program.consecration.desc": "Svadobný obrad sa koná v parku areálu Kaštieľ Krasňany, za nepriaznivého počasia vo vnútorných priestoroch kaštieľa. Obrad začína o 13:00, preto si Vás dovolíme požiadať, aby ste boli usadení, resp. nastúpení v priestoroch obradu najneskôr 12:50. Počas obradu majte prosím stlmené a odložené mobilné telefóny a kamery, na fotenie bude čas po obrade.",
     "main.program.lunch": "Obed",
     "main.program.coffee": "Kávička, koláče a torta. Príhovory",
-    "main.program.beingUpdated": "To be updated...",
+    "main.program.beingUpdated": "Bude doplnené...",
     "main.program.consert": "Do tanca nam bude hrat kapela Juudas Iskariotin Suudelma",
 
     "main.menu": "Menu",
@@ -13,25 +14,28 @@ export const main: Record<string, string> = {
 
     "main.info": "Info",
     "main.info.location": "Miesto",
-    "main.info.location.desc": "Svadba sa koná vo Fínsku v Livonsaari.\nVelkuantie 987, 21180 Livonsaari",
+    "main.info.location.desc": "Svadba sa koná na Slovensku v obci Krasňany. Kaštieľ Krasňany, Krasňany 21, 013 01 Krasňany",
 
-    "main.info.arriving": "Arriving po slovensky if needed",
-    "main.info.arriving.desc": "asdasd",
+    "main.info.arriving": "Príchod",
+    "main.info.arriving.desc": "Ak je Váš východiskový bod Kysucké Nové Mesto, môžete sa na miesto dopraviť zabezpečeným autobusom, ktorý bude vyrážať z Matice slovenskej 958/7 približne o 11:45. Do Krasňan môžte prísť aj taxíkom alebo vlastným autom, v areáli je parkovisko pre dostatočný počet áut. ",
+
+    "main.info.flights": " ",
+    "main.info.trainsAndBusses": " ",
+    "main.info.askTommi": " ",
+    "main.info.arrivingToCastle": " ",
+    "main.info.arrivingToCastle.decs": " ",
 
     "main.info.dresscode": "Dress code",
     "main.info.dresscode.desc": "Countryside wedding with archipelago twist",
 
     "main.info.gifts": "Tip na darček",
-    "main.info.gifts.desc": "Najviac nás poteší Vaša prítomnosť, uvítame však aj podporu rozpočtu na cestovanie a renováciu domu.",
-    "main.info.gifts.iban": "IBAN: FI59 5316 0820 0613 54",
+    "main.info.gifts.desc": "Hlavným cieľom nášho svadobného dňa je užiť si ho v kruhu rodiny a priateľov. Ak nám chcete predsa len priniesť nejaký svadobný dar, potešil by nás finančný príspevok na svadobnú cestu. Keďže ani jeden z mladomanželov nemá na slovensku domácnosť, poprosíme Vás nenosiť žiadne kvety. ",
+    "main.info.gifts.iban": " ",
 
     "main.info.accomodation": "Ubytovanie",
 
-    "main.info.accommondationZilina": "Old Smuggler",
-    "main.info.accommondationZilina.desc": "Old Smuggler ponúka ubytovanie v chatkách približne 7km od svadby",
-    
-    "main.info.livonsaarenOsuuskauppa": "Livonsaaren Osuuskauppa",
-    "main.info.livonsaarenOsuuskauppa.desc": "Najlepší dedinský obchodík! Len cez cestu od svadby. Potraviny, niečo pod zub a bar.",
+    "main.info.accommondationZilina": "Zilina",
+    "main.info.accommondationZilina.desc": "Ak prichádzate do Žiliny na viac nocí, odporúčame Vám zabookovať si hotel v Žiline. Ak prichádzate len na jednu noc, zo soboty na nedeľu, je tu možnosť rezervovať si apartmán v priestoroch Kaštieľ Krasňany s približnou cenou 100€. ",
 
     "main.info.services": "Iné",
 }

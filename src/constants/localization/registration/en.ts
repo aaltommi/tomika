@@ -1,7 +1,7 @@
 export const registration: Record<string, string> = {
     "registration.welcome": "Welcome to our wedding table",
-    "registration.datetime": "27th of August",
-    "registration.place": "Seurantalo in Livonsaari",
+    "registration.datetime": "17th of August",
+    "registration.place": "Kaštieľ Krasňany, Slovakia",
     "registration.questions": "If you have any question about:\n\ndirections\naccomodation\nwhatever else\n\ncontact us on emails veikko@lintujarvi.fi or maslakova.iveta@gmail.com",
     "registration.about": "We will be updating the program and menu in",
     "registration.saveTheLink": "( Save the link )",
@@ -24,9 +24,9 @@ export const registration: Record<string, string> = {
     "registration.form.allergies.wheat": "Wheat",
     
     "registration.form.preferences": "Food preferences",
-    "registration.form.preferences.everything": "Everything goes",
+    "registration.form.preferences.meat": "Everything goes",
     "registration.form.preferences.vegan": "Vegan",
-    "registration.form.preferences.vegetarian": "Vegetarian",
+    "registration.form.preferences.fish": "Vegetarian",
     
     "registration.form.welcomeDrink": "Welcome drink",
     "registration.form.welcomeDrink.placeholder": "What fancy you?",

@@ -31,9 +31,9 @@ export const Main = () => {
   return (
     <div className='Main'>
       <LanguagePicker />
-      <p className='extraText'>
-        <FormattedMessage id='main.saveTheLink' />
-      </p>
+      {/* <h2 className='subText'>
+        <FormattedMessage id='main.wedding' />
+      </h2> */}
       <section className='Main-container'>
         <article className='logo-container'>
           <Link to='/'>

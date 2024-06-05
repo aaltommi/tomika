@@ -2,6 +2,17 @@
 
 Supports relatively secure way to collect visitor registrations to [Firebase](https://firebase.google.com/) without backend. Also offers wedding info website in multiple languages (instructions how it works coming later...).
 
+## Create guests and registration links
+
+- go to firebase console https://console.firebase.google.com/
+- choose firestore databse
+- choose `invited` collection
+- add document, use name like `guestfirstnamelastname`
+- go to rules and uncomment commented sections
+- run `npx ts-node .\tools\invitationsStatus.js` in project root
+- status.csv will be populated with the links to registration
+
+
 ## Local development
 
 ```

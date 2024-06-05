@@ -1,7 +1,6 @@
 import { FormattedMessage } from 'react-intl';
 import './Info.scss';
-import kauppa from '../img/kauppa.jpg';
-import kastiel from '../img/kastiel.jpg';
+import kastiel from '../img/kastiel_gate.jpg';
 
 export const Info = () => {
   return (
@@ -25,6 +24,21 @@ export const Info = () => {
         <p>
           <FormattedMessage id='main.info.arriving.desc' />
         </p>
+        <p>
+          <FormattedMessage id='main.info.flights' />
+        </p>
+        <p>
+          <FormattedMessage id='main.info.trainsAndBusses' />
+        </p>
+        <p>
+          <FormattedMessage id='main.info.arrivingToCastle' />
+        </p>
+        <p>
+          <FormattedMessage id='main.info.arrivingToCastle.decs' />
+        </p>
+        <p>
+          <FormattedMessage id='main.info.askTommi' />
+        </p>
         <h2 id='dresscode'>
           <FormattedMessage id='main.info.dresscode' />
         </h2>
@@ -38,30 +52,16 @@ export const Info = () => {
           <FormattedMessage id='main.info.gifts.desc' />
         </p>
         <p>
-          <FormattedMessage id='main.info.gifts.iban' />
+          <FormattedMessage id='main.info.gifts.iban'/>
         </p>
         <h2 id='accomodation'>
           <FormattedMessage id='main.info.accomodation' />
         </h2>
-          <h3>
-            <FormattedMessage id='main.info.accommondationZilina' />
-          </h3>
+        <h3>
+          <FormattedMessage id='main.info.accommondationZilina' />
+        </h3>
         <p>
           <FormattedMessage id='main.info.accommondationZilina.desc' />
-        </p>
-        <h2 id='services'>
-          <FormattedMessage id='main.info.services' />
-        </h2>
-        <a href='https://livonsaarenosuuskauppa.fi/'>
-          <h3>
-            <FormattedMessage id='main.info.livonsaarenOsuuskauppa' />
-          </h3>
-          <div className='Info-imageContainer'>
-            <img src={kauppa} alt='kauppa' />
-          </div>
-        </a>
-        <p>
-          <FormattedMessage id='main.info.livonsaarenOsuuskauppa.desc' />
         </p>
       </div>
     </section>
