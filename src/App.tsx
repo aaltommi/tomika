@@ -9,6 +9,7 @@ import { Confirmation } from './pages/Confirmation';
 import { IntlProvider } from 'react-intl';
 import { localization } from './constants/localization';
 import { ConfigProvider } from 'antd';
+import { Credits } from './components/Credits';
 
 export default function App() {
   const language = useRecoilValue(currentLanguage);
@@ -28,7 +29,7 @@ export default function App() {
           <Route path='/:page' exact component={Main} />
           <Route path='/registration/:id' component={Registration} />
         </Switch>
-        {/* <Credits /> */}
+        <Credits />
       </Router>
     </IntlProvider>
   );

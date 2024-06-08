@@ -12,7 +12,7 @@ export const Credits = () => {
       </span>
       <span className='separator'>~</span>
       <span>
-        <FormattedMessage id='common.design' /> Jana Černá
+        <FormattedMessage id='common.design' /> Designed by Freepik
       </span>
     </div>
   );

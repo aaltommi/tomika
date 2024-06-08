@@ -25,8 +25,8 @@ export const main: Record<string, string> = {
     "main.info.arrivingToCastle": " ",
     "main.info.arrivingToCastle.decs": " ",
 
-    "main.info.dresscode": "Dress code",
-    "main.info.dresscode.desc": "Countryside wedding with archipelago twist",
+    "main.info.dresscode": "Dresscode",
+    "main.info.dresscode.desc": "Semi formálny dresscode",
 
     "main.info.gifts": "Tip na darček",
     "main.info.gifts.desc": "Hlavným cieľom nášho svadobného dňa je užiť si ho v kruhu rodiny a priateľov. Ak nám chcete predsa len priniesť nejaký svadobný dar, potešil by nás finančný príspevok na svadobnú cestu. Keďže ani jeden z mladomanželov nemá na slovensku domácnosť, poprosíme Vás nenosiť žiadne kvety. ",

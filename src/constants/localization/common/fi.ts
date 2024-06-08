@@ -3,6 +3,6 @@ export const common: Record<string, string> = {
     "common.monika": "Monika",
     "common.datetime": "17 Elokuuta 2024",
     "common.place": "Kastiel Krasnany | Slovakia",
-    "common.sourceCode": "code by",
-    "common.design": "design by"
+    "common.sourceCode": "Lähdekoodi",
+    "common.design": "Tausta"
 }

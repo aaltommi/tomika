@@ -2,7 +2,7 @@ export const registration: Record<string, string> = {
     "registration.welcome": "Tervetuloa häihimme",
     "registration.datetime": "Elokuun 17. päivänä",
     "registration.place": "Kaštieľ Krasňany, Slovakia",
-    "registration.questions": "Jos sinulla on mitään kysymyksiä:\n\nSaapumisesta\nmajoituksesta\nmistä tahansa muusta\n\nlaitathan mailia aaltommi@gmail.com tai 0504311341",
+    "registration.questions": "Jos sinulla on mitään kysymyksiä:\n\nSaapumisesta\nmajoituksesta\nmistä tahansa muusta\n\nolethan yhteydessä Tommiin: aaltommi@gmail.com tai +358504311341, tai Monikaan: monickacvachova@gmail.com tai +358403218883.",
     "registration.about": "Päivitämme menua ja ohjelmaa osoitteeseen",
     "registration.saveTheLink": "( Laita linkki talteen )",
     "registration.fillInBefore": "Lisääthän teiltä osallistuvat henkilöt mahdollisimman pian, kuitenkin viimeistään 31.7.2024",
