@@ -32,7 +32,7 @@ export const Info = () => {
         <p>
           <FormattedMessage id='main.info.arriving.desc' />
         </p>
-        {language == "fi" &&
+        {language === "fi" &&
         <div>
           <p>
           <FormattedMessage id='main.info.flights'/>
@@ -63,7 +63,7 @@ export const Info = () => {
         <p>
           <FormattedMessage id='main.info.gifts.desc' />
         </p>
-        {language == "fi" &&
+        {language === "fi" &&
           <p>
             <FormattedMessage id='main.info.gifts.iban'/>
           </p>
