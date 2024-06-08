@@ -2,6 +2,17 @@
 
 Supports relatively secure way to collect visitor registrations to [Firebase](https://firebase.google.com/) without backend. Also offers wedding info website in multiple languages (instructions how it works coming later...).
 
+## Create guests and registration links
+
+- go to firebase console https://console.firebase.google.com/
+- choose firestore databse
+- choose `invited` collection
+- add document, use name like `guestfirstnamelastname`
+- go to rules and uncomment commented sections
+- run `npx ts-node .\tools\invitationsStatus.js` in project root
+- status.csv will be populated with the links to registration
+
+
 ## Local development
 
 ```
@@ -52,3 +63,24 @@ Further reading: https://firebase.google.com/docs/hosting/github-integration
 ## Usage
 
 Feel free to fork, use and change at will. Hope this repo will help and inspire you!
+
+## Deving
+
+npm install
+
+npm start
+
+npm audit fix --force
+
+now npm start works
+
+created firebase project https://console.firebase.google.com/project/tomika-f62a1/overview
+
+
+## Setting up the github action
+
+install firebase cli `npm install -g firebase-tools`
+
+firebase login
+
+

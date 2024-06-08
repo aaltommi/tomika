@@ -9,9 +9,9 @@ export const RegistrationHeader = () => {
     <header className='App-header'>
       <h1>
         <Link to='/'>
-          <FormattedMessage id='common.lintu' />
+          <FormattedMessage id='common.monika' />
           <span> &amp; </span>
-          <FormattedMessage id='common.maslo' />
+          <FormattedMessage id='common.tommi' />
         </Link>
       </h1>
       <Diamond />
