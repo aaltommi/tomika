@@ -26,8 +26,26 @@ code {
 }
 
 #root {
-  background-image: url('./img/bg-flowers.png');
+  background-image: url('./img/67062.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100%;
+  background-size: 100%;
+  padding-top: 25%;
+  overflow: auto;
+}
+@media (min-width: 768px) {
+  #root {
+    background-image: url('./img/67062.jpg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    padding-top: 0;
+    overflow: auto;
+  }
+}
+@media (min-width: 1480px) {
+  #root {
+    background-image: url('./img/top-view-green-leaves.jpg');
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    background-size: cover;
+  }
 }

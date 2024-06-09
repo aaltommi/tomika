@@ -19,7 +19,7 @@ interface FormValues {
   visitors: Visitor[];
 }
 
-const preferences = ['vegan', 'vegetarian', 'everything'].map((preference) => {
+const preferences = ['vegan', 'fish', 'meat'].map((preference) => {
   return (
     <Option key={preference} value={preference}>
       <FormattedMessage id={'registration.form.preferences.' + preference} />
@@ -27,13 +27,13 @@ const preferences = ['vegan', 'vegetarian', 'everything'].map((preference) => {
   );
 });
 
-const allergies = ['lactose', 'dairy', 'gluten', 'wheat'].map((allergy) => {
-  return (
-    <Option key={allergy} value={allergy}>
-      <FormattedMessage id={'registration.form.allergies.' + allergy} />
-    </Option>
-  );
-});
+// const allergies = ['lactose', 'dairy', 'gluten', 'wheat'].map((allergy) => {
+//   return (
+//     <Option key={allergy} value={allergy}>
+//       <FormattedMessage id={'registration.form.allergies.' + allergy} />
+//     </Option>
+//   );
+// });
 
 const welcomeDrinks = ['alcoholBubbles', 'alcoholFreeBubbles'].map(
   (welcomeDrink) => {
@@ -154,22 +154,18 @@ const RegForm = ({ history }: any) => {
                       })}
                       fieldKey={[field.key, 'allergies']}
                     >
-                      <Select
-                        mode='tags'
+                      <Input
                         placeholder={intl.formatMessage({
                           id: 'registration.form.allergies.placeholder',
                         })}
-                      >
-                        {allergies}
-                      </Select>
+                      > 
+                      </Input>
                     </Form.Item>
                     <Form.Item
                       name={[field.name, 'preferences']}
                       label={intl.formatMessage({
                         id: 'registration.form.preferences',
                       })}
-                      fieldKey={[field.key, 'preferences']}
-                      initialValue='everything'
                     >
                       <Select>{preferences}</Select>
                     </Form.Item>

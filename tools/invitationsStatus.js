@@ -47,7 +47,7 @@ try {
           });
 
           const link =
-            'https://lintujamaslo.web.app/registration/' + btoa(inv.id);
+            'https://monikajatommi.wedding/registration/' + btoa(inv.id);
 
           const row =
             inv.id + ';' + answered + ';' + coming + ';' + link + '\n';

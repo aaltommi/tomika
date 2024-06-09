@@ -15,8 +15,6 @@ Js scripts in /tools folder are helper scripts that are used when fetching invit
 - status.csv will be populated with the links to registration
 
 
-
-
 ## Local development
 
 ```
@@ -72,3 +70,24 @@ Further reading: https://firebase.google.com/docs/hosting/github-integration
 ## Usage
 
 Feel free to fork, use and change at will. Hope this repo will help and inspire you!
+
+## Deving
+
+npm install
+
+npm start
+
+npm audit fix --force
+
+now npm start works
+
+created firebase project https://console.firebase.google.com/project/tomika-f62a1/overview
+
+
+## Setting up the github action
+
+install firebase cli `npm install -g firebase-tools`
+
+firebase login
+
+

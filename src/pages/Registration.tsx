@@ -41,7 +41,7 @@ export const Registration = () => {
           </p>
           <p>
             <FormattedMessage id='registration.about' />{' '}
-            <Link to='/'>lintujamaslo.web.app</Link>
+            <Link to='/'>monikajatommi.wedding</Link>
           </p>
           {/* <p>
             <FormattedMessage id='registration.saveTheLink' />
