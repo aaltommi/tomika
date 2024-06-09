@@ -31,9 +31,12 @@ export const Main = () => {
   return (
     <div className='Main'>
       <LanguagePicker />
-      <p className='extraText'>
+      {/* <h2 className='subText'>
+        <FormattedMessage id='main.wedding' />
+      </h2> */}
+      {/* <p className='extraText'>
         <FormattedMessage id='main.saveTheLink' />
-      </p>
+      </p> */}
       <section className='Main-container'>
         <article className='logo-container'>
           <Link to='/'>
@@ -65,8 +68,7 @@ export const Main = () => {
           </article>
         ) : (
           <article className='Landing-container'>
-            <img src='landing.jpg' className='Landing-picture' alt='Landing' />
-            <i>Straník, Žilina, Slovakia</i>
+            <img src='tomika2.jpg' className='Landing-picture' alt='Landing' />
             <DateAndPlace size='large' />
           </article>
         )}

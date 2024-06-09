@@ -9,7 +9,8 @@ export const main: Record<string, string> = {
     "main.menu": "Menu",
 
     "main.saveTheLink": "Laita linkki talteen",
-    "main.welcome": "Tervetuloa! Welcome! Vitajte!",
+    "main.wedding": "Tervetuloa juhlimaan kanssamme!",
+    "main.welcome": "Tervetuloa! Vitajte!",
 
     "main.info": "Info",
     "main.info.location": "Juhlapaikka",

@@ -2,15 +2,34 @@
 
 Supports relatively secure way to collect visitor registrations to [Firebase](https://firebase.google.com/) without backend. Also offers wedding info website in multiple languages (instructions how it works coming later...).
 
+## Create guests and registration links
+
+Js scripts in /tools folder are helper scripts that are used when fetching invitation status etc. They are not use in the project.
+
+- go to firebase console https://console.firebase.google.com/
+- choose firestore databse
+- choose `invited` collection
+- add document, use name like `guestfirstnamelastname`
+- go to rules and uncomment commented sections
+- run `npx ts-node .\tools\invitationsStatus.js` in project root
+- status.csv will be populated with the links to registration
+
+
+
+
 ## Local development
 
 ```
 root/directory$ npm install && npm start
 ```
 
+
+
 ## Firestore setup
 
-You need tree collections. `invited`, `submitted` and `visitors`.
+You need tree collections. `invited`, `submitted` and `visitors`. No data, documents, or fields are needed.
+
+You need to update theses rules in rules tab in firestore console:
 
 Rules:
 ```
@@ -37,6 +56,7 @@ service cloud.firestore {
   }
 }
 ```
+
 
 ***It's important to remember to comment right after script is run. While uncommented all your data is available to public internet!***
 

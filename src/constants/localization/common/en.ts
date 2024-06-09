@@ -1,8 +1,8 @@
 export const common: Record<string, string> = {
-    "common.lintu": "Lintu",
-    "common.maslo": "Maslo",
-    "common.datetime": "August 27",
-    "common.place": "Seurantalo | Livonsaari",
+    "common.tommi": "Tommi",
+    "common.monika": "Monika",
+    "common.datetime": "August 17 2024",
+    "common.place": "Kaštieľ Krasňany | Slovakia",
     "common.sourceCode": "code by",
     "common.design": "design by"
 }

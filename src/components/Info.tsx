@@ -40,14 +40,11 @@ export const Info = () => {
         <h2 id='accomodation'>
           <FormattedMessage id='main.info.accomodation' />
         </h2>
-        <a href='https://oldsmuggler.fi/palvelut/mokit/'>
+        {language === "fi" &&
           <h3>
-            <FormattedMessage id='main.info.vanhaSalakuljettaja' />
+            <FormattedMessage id='main.info.accommondationZilina' />
           </h3>
-          <div className='Info-imageContainer'>
-            <img src={vanhaSalakuljettaja} alt='vanhaSalakuljettaja' />
-          </div>
-        </a>
+        }
         <p>
           <FormattedMessage id='main.info.vanhaSalakuljettaja.desc' />
         </p>
