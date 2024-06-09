@@ -4,6 +4,8 @@ Supports relatively secure way to collect visitor registrations to [Firebase](ht
 
 ## Create guests and registration links
 
+Js scripts in /tools folder are helper scripts that are used when fetching invitation status etc. They are not use in the project.
+
 - go to firebase console https://console.firebase.google.com/
 - choose firestore databse
 - choose `invited` collection
@@ -19,9 +21,13 @@ Supports relatively secure way to collect visitor registrations to [Firebase](ht
 root/directory$ npm install && npm start
 ```
 
+
+
 ## Firestore setup
 
-You need tree collections. `invited`, `submitted` and `visitors`.
+You need tree collections. `invited`, `submitted` and `visitors`. No data, documents, or fields are needed.
+
+You need to update theses rules in rules tab in firestore console:
 
 Rules:
 ```
@@ -48,6 +54,7 @@ service cloud.firestore {
   }
 }
 ```
+
 
 ***It's important to remember to comment right after script is run. While uncommented all your data is available to public internet!***
 

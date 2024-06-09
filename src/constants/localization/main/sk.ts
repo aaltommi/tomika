@@ -10,7 +10,7 @@ export const main: Record<string, string> = {
     "main.menu": "Menu",
 
     "main.saveTheLink": "Ulož si odkaz",
-    "main.welcome": "Tervetuloa! Welcome! Vitajte!",
+    "main.welcome": "Tervetuloa! Vitajte!",
 
     "main.info": "Info",
     "main.info.location": "Miesto",
@@ -34,7 +34,7 @@ export const main: Record<string, string> = {
 
     "main.info.accomodation": "Ubytovanie",
 
-    "main.info.accommondationZilina": "Zilina",
+    "main.info.accommondationZilina": "Žilina",
     "main.info.accommondationZilina.desc": "Ak prichádzate do Žiliny na viac nocí, odporúčame Vám zabookovať si hotel v Žiline. Ak prichádzate len na jednu noc, zo soboty na nedeľu, je tu možnosť rezervovať si apartmán v priestoroch Kaštieľ Krasňany s približnou cenou 100€. ",
 
     "main.info.services": "Iné",

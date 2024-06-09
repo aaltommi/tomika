@@ -34,9 +34,9 @@ export const Main = () => {
       {/* <h2 className='subText'>
         <FormattedMessage id='main.wedding' />
       </h2> */}
-      <p className='extraText'>
+      {/* <p className='extraText'>
         <FormattedMessage id='main.saveTheLink' />
-      </p>
+      </p> */}
       <section className='Main-container'>
         <article className='logo-container'>
           <Link to='/'>
@@ -68,7 +68,7 @@ export const Main = () => {
           </article>
         ) : (
           <article className='Landing-container'>
-            <img src='tomika.jpg' className='Landing-picture' alt='Landing' />
+            <img src='tomika2.jpg' className='Landing-picture' alt='Landing' />
             <DateAndPlace size='large' />
           </article>
         )}

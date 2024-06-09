@@ -71,9 +71,11 @@ export const Info = () => {
         <h2 id='accomodation'>
           <FormattedMessage id='main.info.accomodation' />
         </h2>
-        <h3>
-          <FormattedMessage id='main.info.accommondationZilina' />
-        </h3>
+        {language === "fi" &&
+          <h3>
+            <FormattedMessage id='main.info.accommondationZilina' />
+          </h3>
+        }
         <p>
           <FormattedMessage id='main.info.accommondationZilina.desc' />
         </p>

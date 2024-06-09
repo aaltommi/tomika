@@ -27,8 +27,8 @@ export const main: Record<string, string> = {
 
     "main.info.accomodation": "Accomodation",
 
-    "main.info.accommondationZilina": "Zilina",
-    "main.info.accommondationZilina.desc": "We recommend to book accommondation in Zilina",
+    "main.info.accommondationZilina": "Žilina",
+    "main.info.accommondationZilina.desc": "We recommend to book accommondation in Žilina",
 
     "main.info.services": "Other services",
 }
