@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "tomika2.jpg",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "tomika2.jpg",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
