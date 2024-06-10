@@ -1,7 +1,7 @@
 export const registration: Record<string, string> = {
     "registration.welcome": "Srdečne Vás pozývame k svadobnému stolu",
     "registration.datetime": "17. Augusta",
-    "registration.place": "Kaštieľ Krasňany, Slovakia",
+    "registration.place": "Kaštieľ Krasňany, Slovensko",
     "registration.questions": "Ak máš otázku o:\n\ntom ako sa ku nám dostať\nubytovaní\nniečom inom\n\n napíš nám email aaltommi@gmail.com alebo monickacvachova@gmail.com ",
     "registration.about": "Program a menu budeme aktualizovať",
     "registration.saveTheLink": "( Ulož si odkaz )",
