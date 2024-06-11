@@ -22,7 +22,7 @@ export const main: Record<string, string> = {
     "main.info.arriving": "Saapuminen",
     "main.info.arriving.desc": "Suomesta juhlapaikalle saapuminen:",
     "main.info.flights": "Kätevin tapa matkustaa juhlapaikalle on lentää Wieniin, josta jatkaen junalla tai bussilla juhlapaikan lähellä sijaitsevaan Žilinaan.",
-    "main.info.trainsAndBusses": "Wienin lentoasemalta kätevin tapa on matkustaa Flixbus yhtiön bussilla joka viel suoraan lentoasemalta Žilinaan. Muita vaihtoehtoja ovat mm. bussi Wienin lentoasemalta Bratislavaan, josta junayhteys Žilinaan, tai junayhteys ensin lentoasemalta Wienin päärautatieasemalle josta lähtee päivittäin yksi juna suoraan Žilinaan.",
+    "main.info.trainsAndBusses": "Wienin lentoasemalta kätevin tapa on matkustaa Flixbus yhtiön bussilla joka vie suoraan lentoasemalta Žilinaan. Muita vaihtoehtoja ovat mm. bussi Wienin lentoasemalta Bratislavaan, josta junayhteys Žilinaan, tai junayhteys ensin lentoasemalta Wienin päärautatieasemalle josta lähtee päivittäin yksi juna suoraan Žilinaan.",
     "main.info.askTommi": "Kaikissa matkustamiseen liittyvissä kysymyksissä voitte olla yhteydessä Tommiin, joka opastaa parhaansa mukaan.",
     "main.info.arrivingToCastle": "Juhlapaikalle:",
     "main.info.arrivingToCastle.decs": "Pyrimme järjestämään yhteiskuljetuksen Žilinasta juhlapaikalle, sekä taksikyytejä takaisin. Päivitämme tietoja myöhemmin. Taksi on kätevin kulkuneuvo juhlapaikalle ja takaisin.",
@@ -37,7 +37,7 @@ export const main: Record<string, string> = {
     "main.info.accomodation": "Majoitus",
 
     "main.info.accommondationZilina": "Žilina",
-    "main.info.accommondationZilina.desc": "Suosittelemme majoituksen varaamista Žilinasta, jossa on runsaasti eritasoista tarjontaa. Juhlapaikkalle on Žilinan keskustasta noin 10 minuutin matka, joka käy kätevästi ja edullisesti taksilla.",
+    "main.info.accommondationZilina.desc": "Suosittelemme majoituksen varaamista Žilinasta, jossa on runsaasti eritasoista tarjontaa. Juhlapaikalle on Žilinan keskustasta noin 10 minuutin matka, joka käy kätevästi ja edullisesti taksilla.",
 
     "main.info.services": "Muita palveluita",
 }
