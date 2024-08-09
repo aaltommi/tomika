@@ -1,12 +1,25 @@
-import menu from '../img/menu2.png';
+import menusvk from '../img/menu_svk.png';
+import menufin from '../img/menu_fin.png';
 import './Menu.scss';
 
+import { useRecoilValue } from 'recoil';
+import { currentLanguage } from '../atoms/language';
+
 export const Menu = () => {
+  
+  const language = useRecoilValue(currentLanguage);
   return (
     <section className='Menu'>
-      <div className='Info-imageContainer'>
-          <img src={menu} alt='Menu' />
-        </div>
+      {language === "sk" &&
+          <div className='Info-imageContainer'>
+            <img src={menusvk} alt='Menu' />
+          </div>
+      }
+      {language === "fi" &&
+          <div className='Info-imageContainer'>
+            <img src={menufin} alt='Menu' />
+          </div>
+      }
     </section>
   );
 };
