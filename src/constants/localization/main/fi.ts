@@ -1,7 +1,7 @@
 export const main: Record<string, string> = {
     "main.program": "Ohjelma",
     "main.program.consecration": "Vihkiminen",
-    "main.program.consecration.desc": "Vihkiseremonia pidetään Kaštieľ Krasňanyn pihamaan puutarhassa kello 13:00 alkaen. Huonon sään sattuessa, seremonia pidetään sisätiloissa.",
+    "main.program.consecration.desc": "Vihkiseremonia pidetään Kaštieľ Krasňanyn pihamaan puutarhassa kello 13:00 alkaen. Huonon sään sattuessa, seremonia pidetään sisätiloissa. Toivomme, että saavut ajoissa, viimeistää 12:50, ja pidät puhelimet taskussa. Valokuvaaja ikuistaa hetken puolestasi. ",
     "main.program.lunch": "Lounas",
     "main.program.coffee": "Kahvia ja kakkua ja puheita",
     "main.program.beingUpdated": "Päivittyy...",
