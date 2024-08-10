@@ -2,7 +2,6 @@
 
 .Program {
   padding-bottom: 3rem;
-
   h1 {
     font-size: 4rem;
   }
@@ -12,5 +11,16 @@
     color: $green-text;
     margin-left: 3rem;
     margin-right: 3rem;
+  }
+  .program-image {
+    width: 100%;         /* Makes the image width 100% of its container */
+    height: auto;        /* Maintains aspect ratio */
+    max-width: 100%;     /* Prevents the image from stretching beyond its actual size */
+  }
+  /* Optional: Style the container */
+  .program-image-container {
+      width: 100%;         /* The container takes full width of its parent */
+      max-width: 600px;    /* Optional max-width for the container */
+      margin: auto;        /* Center the container horizontally */
   }
 }
