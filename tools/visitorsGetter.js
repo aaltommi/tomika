@@ -24,7 +24,7 @@ try {
 
   getDocs(query(collection(db, 'visitors'))).then((docs) => {
     const titleRow = 'Nimi;Kutsu;Malja;Valio;Allergiat\n';
-    fs.writeFile('visitors.csv', titleRow, function (err) {
+    fs.writeFile('C:/Users/taalto/OneDrive/wedding_stuff/11.6.2024/visitors.csv', titleRow, function (err) {
       if (err) return console.log(err);
       console.log('STARTED');
     });
@@ -41,7 +41,7 @@ try {
         ';' +
         data.allergies +
         '\n';
-      fs.appendFile('visitors.csv', row, function (err) {
+      fs.appendFile('C:/Users/taalto/OneDrive/wedding_stuff/11.6.2024/visitors.csv', row, function (err) {
         if (err) return console.log(err);
       });
     });

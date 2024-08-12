@@ -26,7 +26,7 @@ try {
     getDocs(query(collection(db, 'submitted'))).then((submitted) => {
       getDocs(query(collection(db, 'visitors'))).then((visitor) => {
         const titleRow = 'Kutsu;Vastattu;Tulossa;Link\n';
-        fs.writeFile('status.csv', titleRow, function (err) {
+        fs.writeFile('C:/Users/taalto/OneDrive/wedding_stuff/11.6.2024/status.csv', titleRow, function (err) {
           if (err) return console.log(err);
           console.log('STARTED');
         });
@@ -51,7 +51,7 @@ try {
 
           const row =
             inv.id + ';' + answered + ';' + coming + ';' + link + '\n';
-          fs.appendFile('status.csv', row, function (err) {
+          fs.appendFile('C:/Users/taalto/OneDrive/wedding_stuff/11.6.2024/status.csv', row, function (err) {
             if (err) return console.log(err);
           });
         });

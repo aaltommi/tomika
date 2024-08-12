@@ -24,13 +24,13 @@ try {
 
   getDocs(query(collection(db, 'invited'))).then((docs) => {
     const titleRow = 'Kutsu\n';
-    fs.writeFile('invited.csv', titleRow, function (err) {
+    fs.writeFile('C:/Users/taalto/OneDrive/wedding_stuff/11.6.2024/invited.csv', titleRow, function (err) {
       if (err) return console.log(err);
       console.log('STARTED');
     });
     docs.forEach((doc) => {
       const row = doc.id + '\n';
-      fs.appendFile('invited.csv', row, function (err) {
+      fs.appendFile('C:/Users/taalto/OneDrive/wedding_stuff/11.6.2024/invited.csv', row, function (err) {
         if (err) return console.log(err);
       });
     });
